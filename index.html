@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+    <title> Astro Weight Calculator </title>
+    <h1> Astro Weight Calculator</h1>
+    <link rel="stylesheet" href="bulma.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    
+</head>
+
+<body> 
+    <div class="columns">
+        <div class="column">
+            <div>
+                <label class="label">Your Weight</label>
+                <p class="control">
+                    <input id="inputWeight" class="input" type="text" placeholder="Text input">
+                </p>
+            </div>
+        </div>
+        <div class="column">
+            <div>
+                <label class="label">Select a Planet</label>
+                <p class="control">
+                    <span class="select">
+					    <select id="selectPlanet">
+					    </select>
+				 	</span>
+                </p>
+            </div>
+        </div>
+        <div class="column">
+        	<div>
+		        <button id="calculateWeight" class="button is-info">Calculate Weight</button>
+		    </div>
+        </div>
+    </div>
+    <p id="output">
+    </p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

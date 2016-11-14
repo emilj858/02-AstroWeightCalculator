@@ -35,6 +35,7 @@ button.onclick = function (){
     if (isNaN(inputWeight.value)) {
       alert ('Please input only numbers');
     } 
+
     else {
       var weight = inputWeight.value;
 
